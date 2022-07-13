@@ -3,6 +3,7 @@ package model;
 public class User {
 	int userId;
 	String userName;
+	String complaint;
 	public int getUserId() {
 		return userId;
 	}
@@ -14,6 +15,12 @@ public class User {
 	}
 	public void setUserName(String userName) {
 		this.userName = userName;
+	}
+	public String getComplaint() {
+		return complaint;
+	}
+	public void setComplaint(String complaint) {
+		this.complaint = complaint;
 	}
 	
 

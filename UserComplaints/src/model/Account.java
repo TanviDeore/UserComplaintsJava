@@ -1,8 +1,11 @@
 package model;
 
+import java.time.LocalDate;
+
 public class Account {
 int accountNo;
 String name;
+LocalDate complaintGet;
 public int getAccountNo() {
 	return accountNo;
 }
@@ -15,5 +18,12 @@ public String getName() {
 public void setName(String name) {
 	this.name = name;
 }
+public LocalDate getComplaintGet() {
+	return complaintGet;
+}
+public void setComplaintGet(LocalDate complaintGet) {
+	this.complaintGet = complaintGet;
+}
+
 
 }
